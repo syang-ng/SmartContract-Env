@@ -1,0 +1,6 @@
+version: '2'
+services:
+  smart-contract-env:
+    build: ./
+    ports:
+      - 10000:10000
